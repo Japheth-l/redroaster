@@ -22,6 +22,12 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
+## Live preview
+
+Every push to `main` deploys to GitHub Pages via `.github/workflows/pages.yml`: https://japheth-l.github.io/redroaster/
+
+The page carries a `noindex` tag so search engines skip it until the owner approves. Remove that line from `index.html` at launch.
+
 ## Before launch (confirm with the owner)
 
 - [ ] **Hours.** On WhatsApp they replied "12:30", but the flyer says "From 1 PM". Closing time is unknown. Set `hours` in `menu.js`.
