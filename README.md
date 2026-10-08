@@ -24,7 +24,7 @@ python3 -m http.server 8000
 
 ## Live preview
 
-Every push to `main` deploys to GitHub Pages via `.github/workflows/pages.yml`: https://japheth-l.github.io/redroaster/
+Live at https://japheth-l.github.io/redroaster/. GitHub Pages publishes the `main` branch automatically (Settings → Pages → Deploy from a branch), usually within a minute or two of a push.
 
 The page carries a `noindex` tag so search engines skip it until the owner approves. Remove that line from `index.html` at launch.
 
